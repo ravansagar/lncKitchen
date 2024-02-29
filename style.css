@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+html,
+p,
+h1,
+h2,
+div {
+    font-family: "Abel", sans-serif !important;
+}
+
+p,
+b {
+    font-size: x-large;
+    font-weight: 300;
+}
+
+.footer-copyright {
+    bottom: 0 !important;
+}
+h1{
+    color:rgb(0, 45, 243);
+    font-size: 3rem;
+}
+.stay-connected{
+    color: #ff0f0f;
+    font-family: 'Comic sans ms';
+    font-size: 2em;
+    float: right;
+    font-weight: 500;
+}
+p{
+    color: #ff0f0f;
+    font-family: 'Comic sans ms';
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.info{
+    margin-bottom: -1%;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    padding-left: 3em;
+    padding-left: 7em;
+    font-family: 'Segoe UI', bold;
+}
+.t{
+    color: maroon;
+    font-weight: 700;
+}
+#section_2 {
+    position: relative;
+    background: url('logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(2, 156, 199,0.9);
+    background-blend-mode: lighten;
+}
+#send_now{
+    background: linear-gradient(25deg, #a055fa, 50%, #4499f6);
+}
+#section_1{
+background-image: url('bg.jpeg') ;
+background-repeat: no-repeat;
+background-size:95%;
+background-position: center;
+background-size: cover;
+}
+body .stay-connected{
+    color: rgb(3, 49, 173) !important;
+}
+@media (max-width: 768px){
+    #section_1{
+        display: block !important;
+    }   
+    .coming-soon-sm{
+        display: block !important;
+    }
+    img{
+        margin-top: -1em;
+    }
+    .stay-connected{
+        float: left;
+    }
+}
+@media (min-width: 768px){
+    .coming-soon-sm{
+        display: block !important;
+    }
+}
